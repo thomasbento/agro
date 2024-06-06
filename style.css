@@ -13,3 +13,7 @@ padding: 20px;
     height: 200px;
     border-radius: 50%;
 }
+.cabecalho_menu-listaitem{
+    display: inline;
+    text-transform: uppercase;
+}
