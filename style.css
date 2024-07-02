@@ -1,38 +1,76 @@
 body{
-    background-color: azure;
+    width:100%;
+    background-color: rgb(132, 135, 137);
+
 }
+
 header{
-display: flex;
-justify-content: space-between;
-background-color: (222, 168, 202);
-padding: 20px;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(222, 168, 202);
+    padding: 20px;
+    align-items: center;
 }
+
+
 .cabecalho_imagem{
-  
+
     width: 200px;
     height: 200px;
     border-radius: 50%;
+
 }
+
 .cabecalho_menu-listaitem{
     display: inline;
     text-transform: uppercase;
     margin-left: 20px;
-
 }
+
 .sobre{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
+
 .sobre_imagem{
     width: 400px;
     height: 400px;
     padding: 20px;
 }
+
 .sobre_texto{
-    text-align: justify;
-    width: 400px;
+  text-align: justify;
+  width: 400px ;  
+}
+
+.elementos{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.container{
+ border: 2px solid black; 
+ padding: 20px;
+ text-align: center;
+}
+
+.elementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.elementos__div{
+    text-align: center;
+}
+.elementos__imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
 }
     
